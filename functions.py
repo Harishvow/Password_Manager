@@ -2,6 +2,7 @@ import random as rd
 
 
 
+
 def generate():
  while True:
      password="0"
@@ -51,7 +52,7 @@ def read_passwords():
         return file.readlines()
 def write_password():
     with open("savepass.txt", "w") as file:
-        file.writelines("savepass.txt")
+        file.writelines("data.csv")
 
 
 
